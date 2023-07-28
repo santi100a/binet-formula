@@ -19,7 +19,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const issueNumber = "${{ github.event.pull-request.number }}";
+            const issueNumber = "${{ github.event.pull_request.number }}";
             
             const { data: comments } = await github.rest.issues.listComments({
               owner: context.repo.owner,
