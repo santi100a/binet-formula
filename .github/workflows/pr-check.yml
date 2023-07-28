@@ -72,6 +72,7 @@ jobs:
         run: yarn test
 
       - name: Checkout repo
+        if: failure()
         uses: actions/checkout@v3
         with: 
           path: main/
