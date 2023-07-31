@@ -664,12 +664,15 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@santi100/assertion-lib@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@santi100/assertion-lib/-/assertion-lib-1.0.8.tgz#549182e6eeaae693081532405af653920985513b"
-  integrity sha512-bgxIXipilU2ddeDyS6rZBLIr2aV4s9i323ajs1SCCWoIaRyGRDW31ZoKFeXOA/cJntwZFOD0AXopTcYti8nnjQ==
+"@santi100/assertion-lib@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@santi100/assertion-lib/-/assertion-lib-2.0.0.tgz#25285dee6cfe8c734c6192faca605aad119ffa6d"
+  integrity sha512-EcQvQ474oJOe708L8VXhMbGT4UAKkJKyYaQ1qs/ALxbpBjH0xKOdSauk86hXmTK3ceO/s9704Z8J5quiH2Hvsg==
   dependencies:
     "@santi100/equal-lib" "^1.0.8"
+    remark-cli "^11.0.0"
+    remark-gfm "^3.0.1"
+    remark-validate-links "^12.1.1"
 
 "@santi100/equal-lib@^1.0.8":
   version "1.0.9"
